@@ -1,0 +1,119 @@
+@import "./global.scss";
+.view {
+  display: flex;
+  flex-direction: row;
+  color: $font-color-default;
+}
+.view__left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.view__history {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 100px;
+}
+.view__header {
+  font-size: $font-size-h2;
+}
+.view__text {
+  font-size: $font-size-default;
+}
+.view__img {
+}
+.statue {
+  position: relative;
+  background: linear-gradient(
+    101.9deg,
+    rgba(201, 34, 227, 0.4) 7.67%,
+    rgba(153, 30, 234, 0.4) 52.66%,
+    rgba(73, 23, 246, 0.4) 93.7%
+  );
+}
+.statue__img {
+}
+.statue__block {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 176px;
+  border-radius: 80px 0px 0px 80px;
+  height: 160px;
+  background: #232323;
+}
+.statue__circle {
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 112px;
+  margin-left: 20px;
+  transform: rotate(-30deg);
+  height: 112px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.statue__header {
+  font-size: $font-size-h3;
+}
+.statue__text {
+  font-size: $font-size-default;
+}
+
+.view__right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.view__more {
+  position: relative;
+}
+.view__more::after {
+  position: absolute;
+  border-left: 2px solid white;
+  left: 150px;
+  top: 50px;
+  height: 32px;
+  display: flex;
+  content: "";
+}
+.view__btn {
+  margin-left: 100px;
+}
+
+.btn.btn-primary {
+  border: 1px solid purple;
+  background-color: transparent;
+}
+.slider {
+  display: flex;
+  flex-direction: row;
+}
+.view__slider {
+  margin-top: 150px;
+}
+.slider__item {
+  margin-right: 50px;
+}
+.slider__text-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+.slider__img {
+}
+.slider__text {
+  font-size: $font-size-default;
+  text-align: center;
+}

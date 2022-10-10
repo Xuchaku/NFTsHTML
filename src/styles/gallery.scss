@@ -1,0 +1,68 @@
+@import "./global.scss";
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $font-color-default;
+}
+.gallery__top {
+  margin-top: 100px;
+}
+.gallery__header {
+}
+.cartoons {
+  display: flex;
+  max-width: 1240px;
+  flex-direction: row;
+
+  column-gap: 40px;
+}
+.gallery__cartoons {
+  margin-top: 100px;
+}
+.cartoons__item {
+  border: 1px solid purple;
+  border-radius: 4px;
+  padding: 24px;
+}
+.cartoons__imgs {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+}
+.cartoons__sub-imgs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+}
+.cartoons__img-main {
+  height: 316px;
+}
+.cartoons__img-mini {
+  margin-top: 0;
+}
+
+.cartoons__info {
+}
+.cartoons__header {
+  font-size: $font-size-h3;
+  margin-bottom: 20px;
+}
+.cartoons__text {
+  font-size: $font-size-default;
+}
+.cartoons__last-img-wrapper {
+  position: relative;
+}
+.cartoons__more-info {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.gallery__all {
+  margin-top: 50px;
+}
+.gallery__btn {
+  display: block;
+}

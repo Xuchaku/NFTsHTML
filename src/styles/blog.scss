@@ -1,0 +1,63 @@
+@import "./global.scss";
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $font-color-default;
+}
+.blog__top {
+  margin-top: 150px;
+}
+.blog__list {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  max-width: 1200px;
+  column-gap: 30px;
+}
+.post {
+  border-radius: 4px;
+  border: 1px solid purple;
+  padding: 24px;
+}
+.post__img {
+  margin-bottom: 10px;
+}
+
+.post__detail {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.post__user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.post__icon {
+}
+.post__nick {
+  color: purple;
+  margin-left: 10px;
+  font-size: $font-size-default;
+}
+.post__date {
+  margin-left: auto;
+}
+.post__header {
+  margin-bottom: 30px;
+}
+.post__text {
+}
+.post__links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.post__share {
+  margin-left: 15px;
+}
+.post__btn {
+  margin-right: auto;
+}

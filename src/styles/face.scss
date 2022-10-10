@@ -1,0 +1,90 @@
+@import "./global.scss";
+.face {
+  display: flex;
+  flex-direction: row;
+  color: $font-color-default;
+}
+.face__wrapper {
+  max-width: 400px;
+  width: 40%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+.face__info {
+  margin-bottom: 20px;
+}
+.face__header {
+  font-size: $font-size-major;
+}
+.face__text {
+  font-size: $font-size-default;
+  vertical-align: middle;
+}
+.face__options {
+  margin-bottom: 20px;
+  display: flex;
+  column-gap: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.face__img-wrapper {
+  width: 56px;
+  height: 56px;
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.statistic {
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 24px 47px;
+  font-family: $font-family-ruda;
+  column-gap: 50px;
+}
+.face__statistic {
+}
+.statistic__column {
+  text-align: center;
+}
+.statistic__header {
+  font-size: $font-size-h2;
+}
+.statistic__text {
+}
+.face__img-center {
+}
+.face__imgs {
+  margin-top: 70px;
+  position: relative;
+  margin-left: 150px;
+}
+.face__img {
+  position: absolute;
+}
+.face__img-1 {
+  left: 150px;
+  top: 200px;
+}
+.face__img-2 {
+  left: 550px;
+  top: 70px;
+}
+.face__img-3 {
+}
+.face__img-4 {
+  left: 750px;
+  top: 500px;
+}
+.face__img-5 {
+  left: 400px;
+}

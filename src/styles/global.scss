@@ -1,7 +1,42 @@
-$red: "red";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: $red;
+}
+body {
+  background: linear-gradient(
+    101.9deg,
+    rgba(201, 34, 227, 0.4) 7.67%,
+    rgba(153, 30, 234, 0.4) 52.66%,
+    rgba(73, 23, 246, 0.4) 93.7%
+  );
+}
+$font-family-default: "Open Sans";
+$font-family-ruda: "Ruda";
+
+$font-size-major: 64px;
+$font-size-default: 16px;
+$font-size-h2: 32px;
+$font-size-h1: 48px;
+$font-size-h3: 24px;
+
+$font-color-default: white;
+
+%link {
+  text-decoration: none;
+  color: $font-color-default;
+  font-size: $font-size-default;
+  font-family: $font-family-default;
+}
+%input {
+  outline: none;
+  border-radius: 4px;
+  line-height: 16px;
+  text-align: center;
+  color: $font-color-default;
+  font-family: $font-family-default;
+  font-size: $font-size-default;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
 }

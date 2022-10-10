@@ -1,0 +1,64 @@
+@import "./global.scss";
+
+.header {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: $font-color-default;
+  font-family: $font-family-default;
+  padding-top: 50px;
+}
+
+.header__logo {
+  margin-left: 100px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo__img {
+  width: 32px;
+  height: 32px;
+}
+.logo__text {
+  font-size: $font-size-h3;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 50px;
+}
+.header__link-wrapper {
+}
+.link {
+  @extend %link;
+}
+.header__item {
+}
+.header__auth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 100px;
+}
+.header__link-wrapper {
+}
+.btn {
+  @extend %input;
+}
+.header__btn {
+  margin-left: 50px;
+}
+.btn-fill {
+  background: linear-gradient(
+    101.9deg,
+    rgba(201, 34, 227, 0.4) 7.67%,
+    rgba(153, 30, 234, 0.4) 52.66%,
+    rgba(73, 23, 246, 0.4) 93.7%
+  );
+}

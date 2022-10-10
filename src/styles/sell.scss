@@ -1,0 +1,68 @@
+@import "./global.scss";
+.selling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.header2 {
+  font-size: $font-size-h1;
+}
+.selling__top {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.selling__header {
+}
+
+.selling__reasons {
+}
+.reasons {
+  background: #211538;
+  display: flex;
+  max-width: 1240px;
+  flex-direction: row;
+  border-radius: 8px;
+  column-gap: 450px;
+  position: relative;
+}
+.reasons__item {
+  padding: 48px 41px;
+  display: flex;
+  width: 333px;
+  flex-direction: column;
+  align-items: center;
+}
+.reasons__item-top {
+  background: linear-gradient(0deg, #301c49, #301c49),
+    linear-gradient(
+      134.83deg,
+      rgba(197, 34, 228, 0.3) 0%,
+      rgba(90, 25, 244, 0.3) 96.35%
+    );
+  border: 2px solid
+    linear-gradient(
+      134.83deg,
+      rgba(197, 34, 228, 0.3) 0%,
+      rgba(90, 25, 244, 0.3) 96.35%
+    );
+
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+}
+.reasons__img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+.reasons__header {
+  font-size: $font-size-h3;
+  margin-bottom: 16px;
+}
+.reasons__text {
+  text-align: center;
+  font-size: $font-size-default;
+}
